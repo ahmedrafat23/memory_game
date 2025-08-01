@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4b0082;
+}
+
+.moves {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#winMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card.revealed {
+    background-color: #fff;
+    transform: rotateY(180deg);
+    cursor: default;
+}
+
+.card.matched {
+    background-color: #90ee90;
+    pointer-events: none;
+}

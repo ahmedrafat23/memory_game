@@ -1,3 +1,5 @@
+<img width="1024" height="1024" alt="ChatGPT Image Aug 1, 2025, 09_29_13 PM" src="https://github.com/user-attachments/assets/147995bf-fc57-40ce-a493-6c55216cd70d" />
+
 # 🧠 Memory Match Challenge
 
 Welcome to **Memory Match Challenge** — the ultimate brain-boosting card game!  
